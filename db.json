@@ -1,15 +1,6 @@
 {
   "data": [
     {
-      "Id": 1,
-      "Title": "Laptop",
-      "Price": "40000",
-      "Rating": "9",
-      "Description": "Dell Inspiron 15 is a Windows 10 Home laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The Dell Inspiron 15 packs 1TB of HDD storage.",
-      "Poster": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlbGwlMjBsYXB0b3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "id": 1
-    },
-    {
       "Id": 2,
       "Title": "Chair",
       "Price": "35000",
@@ -48,13 +39,13 @@
   ],
   "cart": [
     {
-      "Id": 1,
-      "id": 1,
-      "Title": "Laptop",
-      "Price": "40000",
-      "Rating": "9",
-      "Poster": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlbGwlMjBsYXB0b3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "Description": "Dell Inspiron 15 is a Windows 10 Home laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The Dell Inspiron 15 packs 1TB of HDD storage."
+      "Id": 2,
+      "id": 2,
+      "Title": "Chair",
+      "Price": "35000",
+      "Rating": "8",
+      "Poster": "https://images.unsplash.com/photo-1601392740426-907c7b028119?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNoYWlyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "Description": "Specical Pattern Design Slipcovers will make your chair brand new and beautiful. A nice decor for your home and your household lives! Polyester covers feature an elastic closure to give a snug fit on the chair."
     }
   ]
 }

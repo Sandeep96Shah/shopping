@@ -419,7 +419,7 @@ input[type=submit]{
     font-family: cursive;
 }
 .cancel, .save{
-    height: 40px;
+    height: 100%;
     width: 90px;
     display: flex;
     justify-content: center;
