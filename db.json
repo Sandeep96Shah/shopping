@@ -11,12 +11,12 @@
     },
     {
       "Id": 2,
-      "id": 2,
-      "Title": "Watch",
+      "Title": "Watch A",
       "Price": "15000",
       "Rating": "9",
       "Description": "Rolex presents the new generation of its Oyster Perpetual watches and brings a new model to the range, the Oyster Perpetual 41, as well as versions of the Oyster Perpetual 36 displaying dials in vivid colours.",
-      "Poster": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2F0Y2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      "Poster": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2F0Y2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "id": 2
     },
     {
       "Id": 3,
@@ -37,15 +37,5 @@
       "Poster": "https://images.unsplash.com/photo-1604409273943-ed5b1a083a51?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fG1vYmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     }
   ],
-  "cart": [
-    {
-      "Id": 5,
-      "Title": "Cricket Bat",
-      "Price": 0,
-      "Rating": "",
-      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3CKO5wcka_a9kK3CF_jzcTkpdPOSNq8MZ9g&usqp=CAU",
-      "Description": "",
-      "id": 1
-    }
-  ]
+  "cart": []
 }
