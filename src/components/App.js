@@ -48,6 +48,7 @@ class App extends React.Component{
     console.log("delete",id);
     this.props.dispatch(deleteProduct(Id, id));
     this.notify("Product Deleted Successfully!")
+    console.log("product deleted");
   }
 
   handleProductsCount = () => {
@@ -57,7 +58,11 @@ class App extends React.Component{
 
   handleAddProduct = (title, price, rating, description) => {
     const id = this.props.products.length + 1;
-    this.props.dispatch(addproduct(id, title, price, rating, description))
+    const lastItem = this.props.products[id-2];
+    console.log("Last Item", lastItem.Id);
+    //id=lastItem.Id + 1;
+    const check = lastItem.Id + 1;
+    this.props.dispatch(addproduct(check, title, price, rating, description))
     this.handleDisplay(false);
     this.notify("Product Added Successfully!");
   }

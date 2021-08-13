@@ -23,7 +23,7 @@ export function cartProducts(prods){
 }
 
 export function deleteProduct(Id, id){
-    axios.delete(`http://localhost:3500/data/${id}`)
+    axios.delete(`http://localhost:3500/data/${Id}`)
     .then(response => {
         console.log("delete",response);
       })
@@ -32,7 +32,7 @@ export function deleteProduct(Id, id){
       })
     return {
         type:DELETE,
-        payload:id
+        payload:Id
     }
 }
 
@@ -46,6 +46,7 @@ export function addproduct(check, title, price, rating, description){
         Rating:rating,
         Description:description,
     }
+    console.log("Addedddd", product);
     axios.post("http://localhost:3500/data", product)
         .then((response) => {
             console.log("Post",response);

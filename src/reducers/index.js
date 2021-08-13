@@ -25,6 +25,8 @@ export default function shopping(state=initialState, action){
                 products:items,
             }
         case ADD:
+            const lastIndex = state.products.length;
+            console.log("last Index", lastIndex);
             return{
                 ...state,
                 products:[action.payload, ...state.products],
