@@ -23,7 +23,7 @@ export function cartProducts(prods){
 }
 
 export function deleteProduct(Id, id){
-    axios.delete(`https://my-json-server.typicode.com/Sandeep96Shah/shopping/data/${Id}`)
+    axios.delete(`https://my-json-server.typicode.com/Sandeep96Shah/shopping/db/data/${Id}`)
     .then(response => {
         console.log("delete",response);
       })
@@ -47,7 +47,7 @@ export function addproduct(check, title, price, rating, description){
         Description:description,
     }
     console.log("Addedddd", product);
-    axios.post("https://my-json-server.typicode.com/Sandeep96Shah/shopping/data", product)
+    axios.post("https://my-json-server.typicode.com/Sandeep96Shah/shopping/db/data", product)
         .then((response) => {
             console.log("Post",response);
         })
@@ -61,7 +61,7 @@ export function addproduct(check, title, price, rating, description){
 }
 
 export function editProduct(id, product){
-    axios.put(`https://my-json-server.typicode.com/Sandeep96Shah/shopping/data/${id}`, product)
+    axios.put(`https://my-json-server.typicode.com/Sandeep96Shah/shopping/db/data/${id}`, product)
       .then(response => {
         console.log("put",response);
       })
@@ -76,7 +76,7 @@ export function editProduct(id, product){
 }
 
 export function addToCart(product){
-    axios.post("https://my-json-server.typicode.com/Sandeep96Shah/shopping/cart", product)
+    axios.post("https://my-json-server.typicode.com/Sandeep96Shah/shopping/db/cart", product)
     .then((response) => {
         console.log("Post",response);
     })
@@ -90,7 +90,7 @@ export function addToCart(product){
 }
 
 export function deleteFromCart(id){
-    axios.delete(`https://my-json-server.typicode.com/Sandeep96Shah/shopping/cart/${id}`)
+    axios.delete(`https://my-json-server.typicode.com/Sandeep96Shah/shopping/db/cart/${id}`)
     .then(response => {
         console.log("delete",response);
       })
